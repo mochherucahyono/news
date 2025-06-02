@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MyApp | Berita Teknologi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="index.html" class="navbar-logo">MyApp</a>
+        <ul class="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">Berita</a></li>
+          <li><a href="about.html">Tentang</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Judul Halaman -->
+    <h1>Berita Teknologi Terbaru</h1>
+
+    <!-- Input pencarian -->
+    <input
+      type="text"
+      id="search"
+      placeholder="Cari berita..."
+      style="width: 100%; padding: 10px; margin-bottom: 20px; font-size: 16px"
+    />
+    <div id="daftar-berita"></div>
+
+    <!--Footer-->
+    <footer class="footer">
+      <p>&copy; 2023 Heru Cahyono. All rights reserved.</p>
+    </footer>
+
+    <!--Script JS-->
+    <script src="news.js"></script>
+  </body>
+</html>
